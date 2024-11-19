@@ -1,0 +1,88 @@
+html{
+   margin: 0;
+}
+body{
+    min-height: 70vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    background-image: url(image/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Gochi Hand', cursive;
+    text-align: center;
+    font-size: 130%;  
+  }
+
+#wrapper h2{
+    display:flex;
+    justify-content: center;
+    
+}
+
+#wrapper{
+    background-image: url(image/wrapper.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Gochi Hand', cursive;
+    text-align: center;
+    font-size: 130%;  
+    opacity: 0.8;
+}
+
+h2{
+    color:purple;
+    letter-spacing: 1px;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid palevioletred ;
+    margin-top:30px;
+    height:2.5em;
+    width:250px;
+    padding-left:10px;
+}
+
+input:active{
+    border:solid;
+}
+#wrapper{
+    height:500px;
+    width:400px;
+    margin:200px auto;
+    background-color:#424a94;
+    border-radius:10px;
+    padding:30px;
+}
+
+button{
+    margin-top:20px;
+    background-color:pink;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: #fffffc;
+}
+
+button:hover{
+    cursor:pointer;
+}
+#todoList{
+    color:palevioletred;
+    font-size:28px;  
+    margin-top:10px; 
+}
+
+#todoList p{
+  margin:10px 0px;
+}
+
+#todoList p:hover{
+  cursor: pointer;
+}
